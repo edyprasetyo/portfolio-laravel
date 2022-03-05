@@ -30,7 +30,9 @@
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
     @include('layout.style')
-    <title>My Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ URL::to('/') }}/programmer.ico">
+    <title>Edy Prasetyo</title>
 </head>
 
 <body>

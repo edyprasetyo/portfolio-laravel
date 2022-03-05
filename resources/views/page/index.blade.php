@@ -42,6 +42,13 @@
                 display: none;
             }
 
+            .img-profile-parent {
+                text-align: center;
+            }
+
+            .img-profile {
+                height: 250px;
+            }
         }
 
     </style>
@@ -51,10 +58,10 @@
         </div>
         <div class="container index-container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 img-profile-parent">
                     <img class="img-fluid img-profile" src="{{ URL::to('/') }}/images/profile_1.png" />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 pt-5">
                     <div class="h1 text-green mb-2">
                         <strong>Hello</strong>
                     </div>

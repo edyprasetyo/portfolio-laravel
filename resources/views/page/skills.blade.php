@@ -14,6 +14,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     #skills {
         height: 100%;
         width: 100%;
+        padding-top: 60px;
     }
 
     .skills-card-title {
@@ -94,7 +95,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         z-index: 1;
     }
 
-    @@media screen and (max-width: 480px) {
+    @@media screen and (max-width: 575.98px) {
+        #skills {
+            padding-top: 0;
+        }
+
         .owl-carousel .owl-stage-outer {
             margin: 0 20px !important;
         }
