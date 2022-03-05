@@ -3,6 +3,11 @@
         background: #11162a;
     }
 
+    .ep {
+        margin-top: 20px;
+        height: 37px;
+    }
+
     .logo {
         height: 75px;
     }
@@ -162,6 +167,10 @@
             padding-top: 0;
         }
 
+        .ep {
+            margin-top: 0;
+
+        }
 
     }
 
@@ -169,6 +178,8 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
+        <a class="navbar-brand" href="#"><img class="ep" src="{{ URL::to('/') }}/images/EP.png" alt="">
+        </a>
         <span id="navbarBars" class="iconify ms-auto" data-icon="ep:menu" data-inline="false" data-bs-toggle="collapse"
             data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
             aria-label="Toggle navigation"></span>
