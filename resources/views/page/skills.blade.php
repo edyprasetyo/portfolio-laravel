@@ -103,8 +103,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </style>
 <div id="skills">
+    <div style="height: 70px;"></div>
     <div class="container">
-        <div class="h1 text-green mt-5">
+        <div class="h1 text-green">
             <strong id="worksSince">#06</strong>
         </div>
         <div class="h4 text-green">

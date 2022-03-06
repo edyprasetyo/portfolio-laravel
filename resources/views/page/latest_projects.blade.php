@@ -13,12 +13,20 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         width: 100%;
     }
 
+    .divider {
+        height: 2px;
+        border-radius: 20px;
+        background: #8d8d8d;
+        width: 100%;
+    }
+
 </style>
 
 
 <div id="latest-projects">
+    <div style="height: 60px;"></div>
     <div class="container">
-        <div class="h1 text-green mt-5">
+        <div class="h1 text-green">
             <strong id="worksSince">#Latest Projects</strong>
         </div>
         <div class="h3 text-blue text-center mt-4">
@@ -28,14 +36,59 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Unicorn adalah website untuk memesan tiket bus, dan customer juga dapat memesan tiket melalui handphone baik
             Android / IOS
         </div>
-        <div class="text-center mt-4">
+        <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
         </div>
 
+        <div class="divider"></div>
+
+        <div class="h3 text-blue text-center mt-4">
+            Elite Car Rental
+        </div>
+        <div class="h6 text-white text-center mt-2">
+            Elite Car Rental adalah website untuk menyewa kendaraan, dan customer juga dapat memesan kendaraan melalui
+            handphone baik
+            Android / IOS
+        </div>
+        <div class="text-center mt-2 mb-4">
+            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/elite/elite.png">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="h3 text-blue text-center mt-4">
+            SIP Express
+        </div>
+        <div class="h6 text-white text-center mt-2">
+            SIP Express adalah website untuk tracking pengiriman barang berdasarkan nomor resi yang diterima customer
+        </div>
+        <div class="text-center mt-2 mb-4">
+            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/sipexpress/sipexpress.png">
+        </div>
+
+
+        <div class="divider"></div>
+
+        <div class="h3 text-blue text-center mt-4">
+            SIP Express Kurir
+        </div>
+        <div class="h6 text-white text-center mt-2">
+            SIP Express Kurir adalah aplikasi mobile untuk kurir yang digunakan saat mengantar barang ke customer
+        </div>
+        <div class="text-center mt-2 mb-4">
+            <img class="img-unicorn img-fluid img-zoomable"
+                src="{{ URL::to('/') }}/images/sipexpresskurir/sipexpresskurir.png">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="h6 text-white text-center mt-4">
+            There are more projects that i've created, to see others please email me
+            <a href="edyprasetyo151093@gmail.com">edyprasetyo151093@gmail.com</a>
+        </div>
+
     </div>
-
     <div style="height: 100px;">
-
     </div>
 </div>
 
