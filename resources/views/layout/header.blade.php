@@ -178,7 +178,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
-        <a class="navbar-brand" href="#"><img class="ep" src="{{ URL::to('/') }}/images/EP.png" alt="">
+        <a class="navbar-brand" href="#"><img class="ep" src="{{ URL::to('/') }}/images/logo.png" alt="">
         </a>
         <span id="navbarBars" class="iconify ms-auto" data-icon="ep:menu" data-inline="false" data-bs-toggle="collapse"
             data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -186,13 +186,13 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto my-lg-0">
                 <li class="nav-item menu-item" style="margin-right: 10px;">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item menu-item" style="margin-right: 10px;">
-                    <a class="nav-link" aria-current="page" href="#">About Me</a>
+                    <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
                 </li>
                 <li class="nav-item menu-item" style="margin-right: 10px;">
-                    <a class="nav-link" aria-current="page" href="#">My Works</a>
+                    <a class="nav-link" aria-current="page" href="#skills">Skills</a>
                 </li>
             </ul>
             <script>

@@ -3,7 +3,7 @@
 @section('content')
 
     <style>
-        #index {
+        #home {
             padding-top: 80px;
             position: relative;
             width: 100%;
@@ -53,7 +53,7 @@
 
     </style>
 
-    <div id="index">
+    <div id="home">
         <div class="index-clip">
         </div>
         <div class="container index-container">
@@ -82,6 +82,11 @@
         $('#worksSince').html('#' + Math.abs(ageDate.getUTCFullYear() - 1970));
     </script>
 
+
+    @include('page.about')
+
     @include('page.skills')
+
+
 
 @stop

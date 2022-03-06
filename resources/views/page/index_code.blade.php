@@ -1,15 +1,16 @@
-<pre><code class="javascript">function getProfesion(){
-    return 'Resource And Development Programmer Supervisor';
-}
+<pre><code class="javascript">// My self introduction
+const job_title = 'R&D Programmer Supervisor';
 
 const language = [
-    'C#','VB.NET', 'PHP', 'Java', 'Swift',
-    'Java Script', 'Type Script', 'Dart'
+    'C#','VB.NET', 'PHP',
+    'Java', 'Swift', 'Java Script',
+    'Type Script', 'Dart'
 ];
 
-const frameworkOrTools = [
-    'ASP.NET MVC','ASP.NET Core', 'Laravel',
-    'Android Studio', 'Xcode', 'Angular', 'Flutter'
+const framework_or_tools = [
+    'ASP.NET MVC','ASP.NET Core',
+    'Laravel', 'Android Studio',
+    'Xcode', 'Angular', 'Flutter'
 ];
 </code></pre>
 <script>
@@ -21,6 +22,10 @@ const frameworkOrTools = [
     .hljs {
         color: #eff;
         background: #11162a00;
+    }
+
+    .hljs-comment {
+        color: #6fff75;
     }
 
 </style>

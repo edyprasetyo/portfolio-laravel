@@ -107,7 +107,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </style>
 <div id="skills">
-    <div class="ps-5">
+    <div class="container">
         <div class="h1 text-green mt-5">
             <strong id="worksSince">#06</strong>
         </div>
@@ -225,6 +225,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             margin: 10,
             autoplay: true,
             center: true,
+            rewind: true,
             responsive: {
                 0: {
                     items: 1,
