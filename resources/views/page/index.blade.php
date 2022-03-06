@@ -50,8 +50,8 @@
             }
 
             /* .img-profile {
-                    height: 250px;
-                } */
+                                height: 250px;
+                            } */
         }
 
     </style>
@@ -62,7 +62,7 @@
         </div>
         <div class="container index-container">
             <div class="row">
-                <div class="col-lg-6 img-profile-parent justify-content-center align-self-center ">
+                <div class="col-lg-6 pt-3 img-profile-parent justify-content-center align-self-center ">
                     <span onclick="showProfile();">
                         <img class="img-fluid img-profile" src="{{ URL::to('/') }}/images/profile_4.png" />
                     </span>
