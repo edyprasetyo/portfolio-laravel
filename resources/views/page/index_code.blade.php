@@ -1,5 +1,5 @@
 <pre><code class="javascript">// My self introduction
-const job_title = 'R&D Programmer Supervisor';
+const current_job = 'R&D Programmer Supervisor';
 
 const language = [
     'C#','VB.NET', 'PHP',

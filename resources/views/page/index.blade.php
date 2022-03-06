@@ -87,6 +87,6 @@
 
     @include('page.skills')
 
-
+    @include('page.latest_projects')
 
 @stop

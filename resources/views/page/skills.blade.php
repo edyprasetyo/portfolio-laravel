@@ -12,9 +12,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <style>
     #skills {
-        height: 100%;
+        height: auto;
         width: 100%;
-        padding-top: 60px;
     }
 
     .skills-card-title {
@@ -51,9 +50,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         height: 200px;
     }
 
-    .owl-carousel .owl-stage-outer {
+    /* .owl-carousel .owl-stage-outer {
         margin: 0 50px !important;
-    }
+    } */
 
     .owl-carousel .owl-item img {
         display: block;
@@ -96,12 +95,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     }
 
     @@media screen and (max-width: 575.98px) {
-        #skills {
-            padding-top: 0;
-        }
 
         .owl-carousel .owl-stage-outer {
-            margin: 0 20px !important;
+            margin: 0 10px !important;
         }
     }
 

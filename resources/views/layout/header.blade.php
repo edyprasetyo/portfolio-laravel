@@ -194,6 +194,9 @@
                 <li class="nav-item menu-item" style="margin-right: 10px;">
                     <a class="nav-link" aria-current="page" href="#skills">Skills</a>
                 </li>
+                <li class="nav-item menu-item" style="margin-right: 10px;">
+                    <a class="nav-link" aria-current="page" href="#latest-projects">Projects</a>
+                </li>
             </ul>
             <script>
                 $(".dropdownCustom").hover(function() {
