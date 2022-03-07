@@ -223,10 +223,10 @@
         'use strict';
         $(window).on('load', function() {
             if ($(".pre-loader").length > 0) {
-                setTimeout(() => {
-                    $(".pre-loader").hide();
-                }, 1500);
-
+                // setTimeout(() => {
+                //     $(".pre-loader").hide();
+                // }, 1500);
+                $(".pre-loader").hide();
             }
         });
     })(jQuery)

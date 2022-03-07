@@ -14,10 +14,10 @@
             About Me
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div data-aos="fade-right" class="col-lg-6">
                 <img class="img-fluid" src="{{ URL::to('/') }}/images/about_me.svg" />
             </div>
-            <div class="col-lg-6 justify-content-center align-self-center pt-5 pb-5">
+            <div data-aos="fade-left" class="col-lg-6 justify-content-center align-self-center pt-5 pb-5">
                 <div class="h3 text-blue mb-2">
                     Full Stack Programmer
                 </div>

@@ -29,6 +29,9 @@
 
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     @include('layout.style')
 
     <link rel="icon" type="image/x-icon" href="{{ URL::to('/') }}/favicon.ico">
@@ -40,6 +43,13 @@
     @include('layout.header')
     @yield('content')
 
+    <script>
+        AOS.init({
+            offset: 200, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>

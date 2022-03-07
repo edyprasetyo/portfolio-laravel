@@ -113,7 +113,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                 Experience</span><span class="text-green">;</span>
         </div>
     </div>
-    <div style="position: relative;" data-aos="fade-up">
+    <div data-aos="fade-down" style="position: relative;" data-aos="fade-up">
         <div class="slider mx-md-5 mx-0">
             <div class="owl-carousel px-md-5 px-0">
                 <div class="card shadow rounded-3 card-size">
