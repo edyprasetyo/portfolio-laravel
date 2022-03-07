@@ -33,7 +33,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Unicorn
         </div>
         <div class="h6 text-white text-center mt-2">
-            Unicorn adalah website untuk memesan tiket bus, dan customer juga dapat memesan tiket melalui handphone baik
+            Unicorn is a website for ordering bus tickets, and customers can also order tickets via smartphone either
             Android / IOS
         </div>
         <div class="text-center mt-2 mb-4">
@@ -46,8 +46,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Elite Car Rental
         </div>
         <div class="h6 text-white text-center mt-2">
-            Elite Car Rental adalah website untuk menyewa kendaraan, dan customer juga dapat memesan kendaraan melalui
-            handphone baik
+            Elite Car Rental is a website for renting vehicles, and customers can also order vehicles through
+            smartphone either
             Android / IOS
         </div>
         <div class="text-center mt-2 mb-4">
@@ -60,7 +60,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             SIP Express
         </div>
         <div class="h6 text-white text-center mt-2">
-            SIP Express adalah website untuk tracking pengiriman barang berdasarkan nomor resi yang diterima customer
+            SIP Express is a website for tracking delivery of goods based on the receipt number received by the customer
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/sipexpress/sipexpress.png">
@@ -73,7 +73,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             SIP Express Kurir
         </div>
         <div class="h6 text-white text-center mt-2">
-            SIP Express Kurir adalah aplikasi mobile untuk kurir yang digunakan saat mengantar barang ke customer
+            SIP Express Kurir is a mobile application for couriers that is used when delivering goods to customers
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable"
