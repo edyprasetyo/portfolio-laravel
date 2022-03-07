@@ -36,7 +36,7 @@
 </head>
 
 <body>
-
+    @include('layout.preloader')
     @include('layout.header')
     @yield('content')
 
