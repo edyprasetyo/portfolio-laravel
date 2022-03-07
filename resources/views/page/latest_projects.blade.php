@@ -33,8 +33,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Unicorn
         </div>
         <div class="h6 text-white text-center mt-2">
-            Unicorn is a website for ordering bus tickets, and customers can also order tickets via smartphone either
-            Android / IOS
+            Unicorn is an application to booking bus ticket, customers also can access this application by these three
+            platform web,ios, android.
+
+            For the admin, they have their own panel on a website, so they can control also can see the percentage of
+            available ticket, fleet, and every branch.
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
@@ -46,9 +49,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Elite Car Rental
         </div>
         <div class="h6 text-white text-center mt-2">
-            Elite Car Rental is a website for renting vehicles, and customers can also order vehicles through
-            smartphone either
-            Android / IOS
+            Elite car rental is a website to rent several kind of vehicle, customers could access this apps wheter using
+            android or ios devices
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/elite/elite.png">
@@ -60,7 +62,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             SIP Express
         </div>
         <div class="h6 text-white text-center mt-2">
-            SIP Express is a website for tracking delivery of goods based on the receipt number received by the customer
+            Sip express is a website to tracking delivery goods like document or etc based on shipped number which
+            received by customers
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/sipexpress/sipexpress.png">
@@ -73,7 +76,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             SIP Express Kurir
         </div>
         <div class="h6 text-white text-center mt-2">
-            SIP Express Kurir is a mobile application for couriers that is used when delivering goods to customers
+            Sip express courier is a mobile apps for courrier when they send the goods to the customers
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable"
@@ -86,7 +89,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             Inline
         </div>
         <div class="h6 text-white text-center mt-2">
-            Inline is a mobile application for customers B2b Indorent to get driver like gojek app
+            Inline is a mobile application platform to booking a vehicle, this application could be use for partnership
+            company with indorent
         </div>
         <div class="text-center mt-2 mb-4">
             <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/inline/inline.png">
