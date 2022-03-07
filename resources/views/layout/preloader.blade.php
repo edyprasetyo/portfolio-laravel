@@ -6,12 +6,12 @@
 
 <style>
     #imgPreloader {
-        width: 70px;
+        width: 45px;
     }
 
     @@media only screen and (max-width: 600px) {
         #imgPreloader {
-            width: 83px;
+            width: 45px;
         }
     }
 
