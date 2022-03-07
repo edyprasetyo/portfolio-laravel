@@ -31,7 +31,7 @@
 
     @include('layout.style')
 
-    <link rel="icon" type="image/x-icon" href="{{ URL::to('/') }}/images/logo.ico">
+    <link rel="icon" type="image/x-icon" href="{{ URL::to('/') }}/images/logo_1.ico">
     <title>Edy Prasetyo</title>
 </head>
 
