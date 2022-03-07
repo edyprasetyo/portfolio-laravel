@@ -82,6 +82,18 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <div class="divider"></div>
 
+        <div class="h3 text-blue text-center mt-4">
+            Inline
+        </div>
+        <div class="h6 text-white text-center mt-2">
+            Inline is a mobile application for customers B2b Indorent to get driver like gojek app
+        </div>
+        <div class="text-center mt-2 mb-4">
+            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/inline/inline.png">
+        </div>
+
+        <div class="divider"></div>
+
         <div class="h6 text-white text-center mt-4">
             There are more projects that i've created, to see others please email me
             <a href="edyprasetyo151093@gmail.com">edyprasetyo151093@gmail.com</a>
