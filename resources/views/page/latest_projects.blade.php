@@ -6,7 +6,7 @@
 
     .img-unicorn {
         width: 100%;
-        height: 500px;
+        height: 400px;
         position: relative;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url('{{ URL::to('/') }}/images/unicorn/unicorn.png') no-repeat;
         background-size: cover;
