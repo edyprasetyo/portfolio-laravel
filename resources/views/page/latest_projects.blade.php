@@ -6,6 +6,7 @@
 
     .img-unicorn {
         width: 75%;
+        filter: brightness(50%);
     }
 
     #carousel-unicorn {
