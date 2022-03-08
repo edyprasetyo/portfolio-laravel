@@ -7,7 +7,7 @@
     .img-unicorn {
         width: 75%;
         position: relative;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url('{{ URL::to('/') }}/images/unicorn/unicorn.png') no-repeat;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url('http://placekitten.com/300/300') no-repeat;
     }
 
     #carousel-unicorn {
