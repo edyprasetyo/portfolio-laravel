@@ -6,7 +6,7 @@
 
     .img-unicorn {
         width: 75%;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 70%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)), url('{{ URL::to('/') }}/images/unicorn/unicorn.png');
     }
 
     #carousel-unicorn {
@@ -46,7 +46,7 @@
             available ticket, fleet, and every branch.
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
+            <div class="img-unicorn img-fluid img-zoomable"></div>
         </div>
 
         <div class="divider"></div>
