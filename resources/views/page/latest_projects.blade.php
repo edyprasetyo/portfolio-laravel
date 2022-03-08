@@ -9,7 +9,7 @@
         position: relative;
     }
 
-    .img-unicorn::before {
+    .overlay::before {
         position: absolute;
         top: 0;
         left: 0;
@@ -58,7 +58,8 @@
             available ticket, fleet, and every branch.
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
+            <img class="img-unicorn img-fluid img-zoomable overlay"
+                src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
         </div>
 
         <div class="divider"></div>
