@@ -7,18 +7,7 @@
     .img-unicorn {
         width: 75%;
         position: relative;
-    }
-
-    .overlay::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-230px, -60px) rotate(145deg);
-        content: '';
-        display: block;
-        width: 77%;
-        height: 65%;
-        background: rgba(0, 0, 0, 0.9);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url('{{ URL::to('/') }}/images/unicorn/unicorn.png') no-repeat;
     }
 
     #carousel-unicorn {
@@ -58,8 +47,9 @@
             available ticket, fleet, and every branch.
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable overlay"
-                src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
+            <div class="img-unicorn"></div>
+            {{-- <img class="img-unicorn img-fluid img-zoomable"
+                src="{{ URL::to('/') }}/images/unicorn/unicorn.png"> --}}
         </div>
 
         <div class="divider"></div>
