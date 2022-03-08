@@ -60,12 +60,12 @@
         </div>
         <div class="container index-container">
             <div class="row">
-                <div data-aos="fade-right" class="col-lg-6 pt-3 img-profile-parent justify-content-center align-self-center">
+                <div class="col-lg-6 pt-3 img-profile-parent justify-content-center align-self-center">
                     <span onclick="showProfile();">
                         <img class="img-fluid img-profile" src="{{ URL::to('/') }}/images/profile_4.png" />
                     </span>
                 </div>
-                <div data-aos="fade-left" class="col-lg-6 pt-5">
+                <div class="col-lg-6 pt-5">
                     <div class="h1 text-green mb-2">
                         <strong>Hello</strong>
                     </div>
