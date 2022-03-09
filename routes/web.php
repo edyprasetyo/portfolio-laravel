@@ -17,11 +17,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $ip = $_SERVER['HTTP_CLIENT_IP']
-        ? $_SERVER['HTTP_CLIENT_IP']
-        : ($_SERVER['HTTP_X_FORWARDED_FOR']
-            ? $_SERVER['HTTP_X_FORWARDED_FOR']
-            : $_SERVER['REMOTE_ADDR']);
+    $ip = '';
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    } else {
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
     $oVisitor = Visitor::find($ip);
     if ($oVisitor == null) {
         $oVisitor = new Visitor;
