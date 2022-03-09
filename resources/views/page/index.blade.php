@@ -97,4 +97,10 @@
 
     @include('page.latest_projects')
 
+    <div class="h6 text-green text-center mt-5">
+        <?php
+        $oUtillog = \App\Models\Utillog::find(1);
+        ?>
+        Jumlah Pengunjung : {{ $oUtillog->JumlahPengunjung }}
+    </div>
 @stop

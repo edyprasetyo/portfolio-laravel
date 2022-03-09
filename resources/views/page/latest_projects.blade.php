@@ -9,18 +9,6 @@
         position: relative;
     }
 
-    .overlay::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-230px, -60px) rotate(145deg);
-        content: '';
-        display: block;
-        width: 77%;
-        height: 65%;
-        background: rgba(0, 0, 0, 0.9);
-    }
-
     #carousel-unicorn {
         width: 100%;
     }

@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Utillog;
+use App\Models\Visitor;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +16,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
+    $oVisitor = Visitor::find($_SERVER['REMOTE_ADDR']);
+    if ($oVisitor == null) {
+        $oVisitor = new Visitor;
+        $oVisitor->IP = $_SERVER['REMOTE_ADDR'];
+
+        $oUtillog = Utillog::find(1);
+        $oUtillog->JumlahPengunjung = ($oUtillog->JumlahPengunjung) + 1;
+        $oUtillog->save();
+    }
+    $oVisitor->Tanggal = date('Y-m-d');
+    $oVisitor->save();
+
     return view('page/index');
 });
