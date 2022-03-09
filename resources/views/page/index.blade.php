@@ -101,6 +101,6 @@
         <?php
         $oUtillog = \App\Models\Utillog::find(1);
         ?>
-        Visitors : {{ $oUtillog->JumlahPengunjung }}
+        <span class="text-white">Visitors :</span> {{ $oUtillog->JumlahPengunjung }}
     </div>
 @stop
