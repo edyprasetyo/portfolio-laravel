@@ -46,7 +46,7 @@
             available ticket, fleet, and every branch.
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
         </div>
 
         <div class="divider"></div>
@@ -59,7 +59,7 @@
             android or ios devices
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/elite/elite.png">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/elite/elite.png">
         </div>
 
         <div class="divider"></div>
@@ -72,7 +72,7 @@
             received by customers
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/sipexpress/sipexpress.png">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/sipexpress/sipexpress.png">
         </div>
 
 
@@ -85,8 +85,7 @@
             Sip express courier is a mobile apps for courrier when they send the goods to the customers
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable"
-                src="{{ URL::to('/') }}/images/sipexpresskurir/sipexpresskurir.png">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/sipexpresskurir/sipexpresskurir.png">
         </div>
 
         <div class="divider"></div>
@@ -99,7 +98,7 @@
             company with indorent
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
-            <img class="img-unicorn img-fluid img-zoomable" src="{{ URL::to('/') }}/images/inline/inline.png">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/inline/inline.png">
         </div>
 
         <div class="divider"></div>
@@ -110,15 +109,5 @@
         </div>
 
     </div>
-    <div style="height: 100px;">
-    </div>
-</div>
 
-<script>
-    // Listen to images after DOM content is fully loaded
-    document.addEventListener('DOMContentLoaded', function() {
-        new Zooming({
-            // options...
-        }).listen('.img-zoomable')
-    })
-</script>
+</div>

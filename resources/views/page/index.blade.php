@@ -97,12 +97,11 @@
 
     @include('page.latest_projects')
 
-    <div class="h6 text-green text-center pt-2 pb-3">
-        <?php
-        $q = DB::select('SELECT * FROM UtilLog');
-        ?>
+    <div class="h6 text-green text-center pt-5 pb-4">
+        @php
+            $q = DB::select('SELECT * FROM UtilLog');
+        @endphp
         <span class="text-white">Visitors :</span> {{ $q[0]->JumlahPengunjung }}
-
-
     </div>
+
 @stop
