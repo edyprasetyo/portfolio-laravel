@@ -99,8 +99,10 @@
 
     <div class="h6 text-green text-center pt-2 pb-3">
         <?php
-        $oUtillog = \App\Models\Utillog::find(1);
+        $q = DB::select('SELECT * FROM UtilLog WHERE ID = 1');
         ?>
-        <span class="text-white">Visitors :</span> {{ $oUtillog->JumlahPengunjung }}
+        <span class="text-white">Visitors :</span> {{ $q[0]->JumlahPengunjung }}
+
+
     </div>
 @stop
