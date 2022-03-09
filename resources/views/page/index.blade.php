@@ -101,6 +101,6 @@
         <?php
         $oUtillog = \App\Models\Utillog::find(1);
         ?>
-        Jumlah Pengunjung : {{ $oUtillog->JumlahPengunjung }}
+        Visitors : {{ $oUtillog->JumlahPengunjung }}
     </div>
 @stop
