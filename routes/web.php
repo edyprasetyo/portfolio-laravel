@@ -17,16 +17,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $oVisitor = Visitor::find($_SERVER['REMOTE_ADDR']);
+    $oVisitor = Visitor::find(request()->ip());
     if ($oVisitor == null) {
         $oVisitor = new Visitor;
-        $oVisitor->IP = $_SERVER['REMOTE_ADDR'];
+        $oVisitor->IP = request()->ip();
 
         $oUtillog = Utillog::find(1);
         $oUtillog->JumlahPengunjung = ($oUtillog->JumlahPengunjung) + 1;
         $oUtillog->save();
     }
-    $oVisitor->Tanggal = date('Y-m-d');
+    $oVisitor->Tanggal = new DateTime();
     $oVisitor->save();
 
     return view('page/index');
