@@ -97,7 +97,7 @@
 
     @include('page.latest_projects')
 
-    <div class="h6 text-green text-center pt-2 pb-5">
+    <div class="h6 text-green text-center pt-2 pb-3">
         <?php
         $oUtillog = \App\Models\Utillog::find(1);
         ?>
