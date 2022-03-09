@@ -13,6 +13,8 @@ use Illuminate\Database\Eloquent\Model;
  * Class Visitor
  * 
  * @property string $IP
+ * @property string|null $Header1
+ * @property string|null $Header2
  * @property Carbon|null $Tanggal
  *
  * @package App\Models
@@ -29,6 +31,8 @@ class Visitor extends Model
 	];
 
 	protected $fillable = [
+		'Header1',
+		'Header2',
 		'Tanggal'
 	];
 }
