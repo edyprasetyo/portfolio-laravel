@@ -99,7 +99,7 @@
 
     <div class="h6 text-green text-center pt-2 pb-3">
         <?php
-        $q = DB::select('SELECT * FROM UtilLog WHERE ID = 1');
+        $q = DB::select('SELECT * FROM UtilLog');
         ?>
         <span class="text-white">Visitors :</span> {{ $q[0]->JumlahPengunjung }}
 
