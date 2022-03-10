@@ -21,7 +21,7 @@
                 <div class="h3 text-blue mb-2">
                     Full Stack Programmer
                 </div>
-                <div class="h6 text-white mb-5">
+                <div class="h6 text-white mb-4">
                     Having more than 6 years as an Full Stack Programmer with history of working
                     in
                     mayor
@@ -33,7 +33,7 @@
                 <div class="h3 text-blue mb-2">
                     Project Leader
                 </div>
-                <div class="h6 text-white">
+                <div class="h6 text-white mb-4">
                     Lead developed, design, and implement complex project
                 </div>
                 <div class="h3 text-blue mb-2">
