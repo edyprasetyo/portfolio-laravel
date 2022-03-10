@@ -17,7 +17,7 @@
             <div data-aos="fade-up" class="col-lg-6">
                 <img class="img-fluid" src="{{ URL::to('/') }}/images/about_me.svg" />
             </div>
-            <div data-aos="fade-up" class="col-lg-6 justify-content-center align-self-center pt-5 pb-5">
+            <div data-aos="fade-up" class="col-lg-6 justify-content-center align-self-center pt-3 pb-3">
                 <div class="h3 text-blue mb-2">
                     Full Stack Programmer
                 </div>
