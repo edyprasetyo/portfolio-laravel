@@ -36,6 +36,13 @@
                 <div class="h6 text-white">
                     Lead developed, design, and implement complex project
                 </div>
+                <div class="h3 text-blue mb-2">
+                    Educational Background
+                </div>
+                <div class="h6 text-white">
+                    Information Technology Gunadarma University Jakarta / From September 2011 to December 2015, Cum
+                    Laude with GPA <span class="text-green">3.62</span>
+                </div>
             </div>
         </div>
     </div>
