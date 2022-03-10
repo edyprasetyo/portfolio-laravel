@@ -49,6 +49,10 @@
             <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/unicorn/unicorn.png">
         </div>
 
+        <div data-aos="fade-up" class="text-center mt-3 mb-4">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/unicorn/unicorn_admin.png">
+        </div>
+
         <div class="divider"></div>
 
         <div data-aos="fade-up" class="h3 text-blue text-center mt-4">
@@ -60,6 +64,10 @@
         </div>
         <div data-aos="fade-up" class="text-center mt-3 mb-4">
             <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/elite/elite.png">
+        </div>
+
+        <div data-aos="fade-up" class="text-center mt-3 mb-4">
+            <img class="img-unicorn img-fluid" src="{{ URL::to('/') }}/images/elite/elite_admin.png">
         </div>
 
         <div class="divider"></div>
