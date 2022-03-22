@@ -148,11 +148,15 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                         <div class="row mt-2">
                             <div class="col-md-12">
                                 <div class="skills-card-content">
-                                    ASP.NET / ASP.NET Core MVC - C#
+                                    Go Lang - Beego/Gin
                                     <br>
-                                    Laravel - PHP
+                                    C# - ASP.Net MVC/ASP.Net Core
                                     <br>
-                                    Node JS - Angular
+                                    PHP - Laravel
+                                    <br>
+                                    Java Script - ReactJS/Angular
+                                    <br>
+                                    Type Script - ReactJS/Angular
                                 </div>
                             </div>
                         </div>
