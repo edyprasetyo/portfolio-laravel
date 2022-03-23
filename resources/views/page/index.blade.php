@@ -72,7 +72,6 @@
                     <div class="h5 text-green mb-3">
                         I'm Edy Prasetyo - <strong class="text-blue">Full Stack Developer</strong>
                     </div>
-
                     @include('page.index_code')
                 </div>
 
