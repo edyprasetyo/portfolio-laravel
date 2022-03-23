@@ -48,8 +48,6 @@
             .img-profile-parent {
                 text-align: center;
             }
-
-
         }
 
     </style>
